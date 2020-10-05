@@ -1,0 +1,135 @@
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+body{
+    font-family: 'Girassol', cursive;
+    background: #1a1a1a;
+    color: white;
+    padding: 0px;
+    margin:0px;
+    
+}   
+
+.name{
+    background-color:  #860300;
+    font-size: 8px;
+    font-weight: bold;
+    font-weight: 300;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.name:hover{
+color: white;
+font-size: large;
+transition-property: all;
+transition-duration: 1s;
+}
+
+.name .juhan:hover{
+background-image: url(photo/cb.gif);
+padding-top: 20px;
+padding-bottom: 20px;
+transition-property: all;
+transition-duration: 1s;
+background-size: 350px ;
+    
+
+}
+.name .hg:hover{
+background-image: url(photo/wr.gif);
+padding-top: 20px;
+padding-bottom: 20px;
+transition-property: all;
+transition-duration: 1s;
+background-size: 350px 80px;
+}
+
+.name .gy:hover{
+background-image: url(photo/queen.gif);
+padding-top: 20px;
+padding-bottom: 20px;
+transition-property: all;
+transition-duration: 1s;
+background-size: 350px 200px;
+}
+
+.name .jg:hover{
+background-image: url(photo/jaki.gif);
+padding-top: 20px;
+padding-bottom: 20px;
+transition-property: all;
+transition-duration: 1s;
+background-size: 350px 200px;
+}
+
+.main{
+    none;
+   
+}
+p{
+    font-size: 25px;
+    font-weight: 300;
+}
+.name a{
+    font-family: 'Girassol', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+h1 a{
+    text-decoration: none;
+    color: white;
+
+}
+.main p{
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+}
+.sub {
+    font-family: 'Nanum Myeongjo', serif;
+}
+#doma_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap: 30px;
+    
+}
+.doma1{
+    background-image: url(photo/doma/wood_title.jpg);
+    padding-top: 300px;
+    background-size: 280px 300px;
+}
+.doma2{
+    background-image: url(photo/doma/wood_title.jpg);
+    padding-top: 300px;
+    background-size: 280px 300px;
+}
+.doma3{
+    background-image: url(photo/doma/wood_title.jpg);
+    padding-top: 300px;
+    background-size: 280px 300px;
+}
+.doma4{background-image: url(photo/doma/wood_title.jpg);
+    padding-top: 300px;
+    background-size: 280px 300px;
+}
+.subti{
+background-image: url(photo/sub.gif);
+padding: 40px;
+margin: 0px;
+color: black;
+text-align: center;
+font-size: 40px;
+font-weight: 500;
+}
